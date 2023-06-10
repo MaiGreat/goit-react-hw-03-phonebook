@@ -5,7 +5,7 @@ const ContactList = ({ contacts, onClick }) => {
 
     return (
         <ul className={css.list}>
-            {filteredContacts.map(contact => (
+            {contacts.map(contact => (
                 <li className={css.name} key={contact.id}>
                     {contact.name} - {contact.number}
                     <button className={css["btn-delete"]} type="button" onClick={() => onClick(contact.id)}>
