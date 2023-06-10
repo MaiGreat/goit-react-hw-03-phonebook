@@ -25,7 +25,6 @@ contacts: PropTypes.arrayOf(
             number: PropTypes.string.isRequired
         })
     ).isRequired,
-    filter: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired
 }
 export default ContactList;
