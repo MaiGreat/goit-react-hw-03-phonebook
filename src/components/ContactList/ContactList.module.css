@@ -1,0 +1,23 @@
+.list {
+    list-style: none;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 4px;
+}
+
+.btn-delete {
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 3px solid salmon;
+    background-color: rgb(250, 173, 164);
+    font-weight: 600;
+    padding: 2px 4px;
+}
+
+.btn-delete:active {
+    background-color: salmon
+}

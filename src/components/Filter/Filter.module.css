@@ -1,0 +1,14 @@
+.title {
+    font-weight: 500;
+    
+}
+
+.filter {
+    border-color: slategray;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 5px;
+    border-radius: 6px;
+    border: 2px solid slategray;
+    width: 206px;
+    height: 28px;
+}
